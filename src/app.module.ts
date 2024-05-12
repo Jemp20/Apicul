@@ -10,9 +10,9 @@ import { User } from './user/entities/user.entity';
     type: 'mysql',
     host: 'localhost',
     port: 3306,
-    username: 'root',
-    password: 'joel1234',
-    database: 'apicul',
+    username: 'root',     //root
+    password: 'joel1234', //joel1234
+    database: 'apicul',   //apicul
     entities: [User],
     synchronize: true,
   }), UserModule,],
